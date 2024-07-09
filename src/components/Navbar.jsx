@@ -27,7 +27,8 @@ const Navbar = () => {
           <Link to='/about'>About Me</Link>
         </div>
         <div className="text-3xl sm:text-2xl font-extrabold">
-          <a href="/">Ronak Piraka</a>
+        <Link to='/'>Ronak Piraka</Link>
+        {/* <a href="/">Ronak Piraka</a> */}
         </div>
         <div className="hidden sm:flex space-x-4 items-center text-sm">
           <Link to='/projects'>Projects</Link>
