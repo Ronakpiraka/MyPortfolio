@@ -10,6 +10,7 @@ const Contact = () => {
     const [form, setForm] = useState({
         name: "",
         email: "",
+        mobile: "", // Changed from 'number' to 'mobile'
         message: "",
     });
 
@@ -32,9 +33,10 @@ const Contact = () => {
         // cleaning the form data
         const username = form.name.trim();
         const user_email = form.email.trim();
+        const user_mobile = form.mobile.trim(); // Corrected to 'mobile'
         const user_message = form.message.trim();
 
-        if (username === '' || user_email === '' || user_message === '') {
+        if (username === '' || user_email === '' || user_message === '' || user_mobile === '') {
             setLoading(false);
             toast.error("Please fill all the fields.", {
                 position: 'bottom-right',
@@ -51,6 +53,7 @@ const Contact = () => {
                     to_name: "Ronak Piraka",
                     reply_to: user_email,
                     to_email: "ronakpiraka@gmail.com",
+                    mobile: user_mobile,
                     message: user_message,
                 },
                 EMAIL_JS_PUBLIC_KEY
@@ -64,6 +67,7 @@ const Contact = () => {
                     setForm({
                         name: "",
                         email: "",
+                        mobile: "", // Reset mobile field as well
                         message: "",
                     });
                 },
@@ -113,6 +117,18 @@ const Contact = () => {
                             />
                         </label>
                         <label className='flex flex-col'>
+                            <span className=' font-medium mb-4'>Your Mobile Number</span>
+                            <input
+                                type='text' // Changed type to 'text' for mobile number
+                                name='mobile' // Changed name to 'mobile'
+                                value={form.mobile}
+                                onChange={handleChange}
+                                placeholder="Ex:+91 9123456780"
+                                className='py-4 px-6 rounded-lg  font-medium bg-gray-900'
+                                required
+                            />
+                        </label>
+                        <label className='flex flex-col'>
                             <span className='font-medium mb-4'>Your Message</span>
                             <textarea
                                 rows={7}
@@ -126,7 +142,7 @@ const Contact = () => {
                         </label>
 
                         <button
-                            type='Submit'
+                            type='submit' // Changed to 'submit'
                             className='pt-3 px-8 rounded-xl outline-none w-fit font-bold shadow-md bg-gray-900'
                         >
                             {loading ? "Sending..." : "Send"}

@@ -1,21 +1,8 @@
-import React, { useState } from "react";
-import { project } from '../constants';
+import React from "react";
+import { testimony } from '../constants';
 import Footer from './Footer';
 
-const ProjectCard = ({ image, title, description, git, technologies }) => {
-    const [isExpanded, setIsExpanded] = useState(false);
-
-    const toggleExpansion = () => {
-        setIsExpanded(!isExpanded);
-    };
-
-    const truncateText = (text, length) => {
-        if (text.length <= length) {
-            return text;
-        }
-        return text.slice(0, length) + '...';
-    };
-
+const TestimonyCard = ({ image, title, description, git, technologies }) => {
     return (
         <div className="max-w-sm sm:max-w-sm md:max-w-sm bg-gray-900 border border-neutral-100 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
@@ -25,17 +12,7 @@ const ProjectCard = ({ image, title, description, git, technologies }) => {
                 <a href="#">
                     <h5 className="text-2xl sm:text-xl md:text-2xl lg:text-3xl font-bold tracking-tight text-white bg-clip-text text-transparent bg-gradient-to-r from-yellow-200 to-pink-500">{title}</h5>
                 </a>
-                <p className="font-normal text-sm sm:text-base md:text-lg text-gray-300 dark:text-gray-400">
-                    {isExpanded ? description : truncateText(description, 100)}
-                    {description.length > 100 && (
-                        <span 
-                            onClick={toggleExpansion} 
-                            className="text-blue-500 cursor-pointer"
-                        >
-                            {isExpanded ? ' see less' : ' see more'}
-                        </span>
-                    )}
-                </p>
+                <p className="font-normal text-sm sm:text-base md:text-lg text-gray-300 dark:text-gray-400">{description}</p>
             </div>
             <div className='m-2 sm:m-4 lg:m-6 flex justify-between'>
                 <div className='flex flex-wrap gap-2 pl-2'>
@@ -54,12 +31,12 @@ const ProjectCard = ({ image, title, description, git, technologies }) => {
     );
 };
 
-const Projects = () => {
+const testimonies = () => {
     return (
         <div className="bg-black">
             <div className="flex flex-wrap gap-7 justify-center items-center m-12 p-12">
-                {project.map((item, index) => (
-                    <ProjectCard
+                {testimony.map((item, index) => (
+                    <TestimonyCard
                         key={index}
                         image= 'https://www.ntaskmanager.com/wp-content/uploads/2020/10/project-design-in-project-management.png'
                         title={item.title}
@@ -74,4 +51,4 @@ const Projects = () => {
     );
 }
 
-export default Projects;
+export default testimonies;

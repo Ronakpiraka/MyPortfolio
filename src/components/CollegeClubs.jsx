@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import { project } from '../constants';
+import { club } from '../constants';
 import Footer from './Footer';
 
-const ProjectCard = ({ image, title, description, git, technologies }) => {
+const ClubCard = ({ image, title, description, technologies }) => {
     const [isExpanded, setIsExpanded] = useState(false);
 
     const toggleExpansion = () => {
@@ -48,23 +48,21 @@ const ProjectCard = ({ image, title, description, git, technologies }) => {
                         </p>
                     ))}
                 </div>
-                {/* <a href={git} className="text-red-300 border border-gray-200 rounded-lg shadow p-1 sm:p-2 lg:p-3 hover:text-green-500 duration-300">GitHub</a> */}
             </div>
         </div>
     );
 };
 
-const Projects = () => {
+const Clubs = () => {
     return (
         <div className="bg-black">
             <div className="flex flex-wrap gap-7 justify-center items-center m-12 p-12">
-                {project.map((item, index) => (
-                    <ProjectCard
+                {club.map((item, index) => (
+                    <ClubCard
                         key={index}
-                        image= 'https://www.ntaskmanager.com/wp-content/uploads/2020/10/project-design-in-project-management.png'
+                        image={item.image || 'https://www.ntaskmanager.com/wp-content/uploads/2020/10/project-design-in-project-management.png'}
                         title={item.title}
                         description={item.description}
-                        git={item.git}
                         technologies={item.technologies}
                     />
                 ))}
@@ -74,4 +72,4 @@ const Projects = () => {
     );
 }
 
-export default Projects;
+export default Clubs;
