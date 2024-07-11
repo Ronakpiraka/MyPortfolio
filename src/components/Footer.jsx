@@ -26,19 +26,19 @@ const Footer = () => {
           <a href="tel:+917573883705" className='transition ease-in-out duration-300 rounded-md hover:scale-110 cursor-pointer hover:-translate-y-1' style={{ cursor: 'pointer' }}>
             <FiPhone className='text-xl' />
           </a>
-          <a href="https://facebook.com" target='_blank' className='transition ease-in-out duration-300 rounded-md hover:scale-110 cursor-pointer hover:-translate-y-1' style={{ cursor: 'pointer' }}>
+          <a href="https://www.facebook.com/ronakpiraka/" target='_blank' className='transition ease-in-out duration-300 rounded-md hover:scale-110 cursor-pointer hover:-translate-y-1' style={{ cursor: 'pointer' }}>
             <FaFacebook className='text-xl' />
           </a>
-          <a href="https://instagram.com" target='_blank' className='transition ease-in-out duration-300 rounded-md hover:scale-110 cursor-pointer hover:-translate-y-1' style={{ cursor: 'pointer' }}>
+          <a href="https://www.instagram.com/gujju_guy" target='_blank' className='transition ease-in-out duration-300 rounded-md hover:scale-110 cursor-pointer hover:-translate-y-1' style={{ cursor: 'pointer' }}>
             <FaInstagram className='text-xl' />
           </a>
           <a href="https://wa.me/917573883705" target='_blank' className='transition ease-in-out duration-300 rounded-md hover:scale-110 cursor-pointer hover:-translate-y-1' style={{ cursor: 'pointer' }}>
             <FaWhatsapp className='text-xl' />
           </a>
-          <a href="https://t.me/username" target='_blank' className='transition ease-in-out duration-300 rounded-md hover:scale-110 cursor-pointer hover:-translate-y-1' style={{ cursor: 'pointer' }}>
+          <a href="https://t.me/ronakpiraka" target='_blank' className='transition ease-in-out duration-300 rounded-md hover:scale-110 cursor-pointer hover:-translate-y-1' style={{ cursor: 'pointer' }}>
             <FaTelegram className='text-xl' />
           </a>
-          <a href="https://youtube.com" target='_blank' className='transition ease-in-out duration-300 rounded-md hover:scale-110 cursor-pointer hover:-translate-y-1' style={{ cursor: 'pointer' }}>
+          <a href="https://www.youtube.com/channel/UCM-TLtKkXZTiISYv9qgBRSg" target='_blank' className='transition ease-in-out duration-300 rounded-md hover:scale-110 cursor-pointer hover:-translate-y-1' style={{ cursor: 'pointer' }}>
             <FaYoutube className='text-xl' />
           </a>
         </div>
