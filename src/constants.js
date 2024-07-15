@@ -78,6 +78,30 @@ export const project = [
     }
 ];
 
+export const testimony = [
+    {
+        title: 'AWS Certified Cloud Practitioner ',
+        description: 'Credential no.: KNCTR0CCZJRQQRSH (Validity: 2022 - 2025)',
+        image: 'https://yourtrademarkattorney.com/wp-content/uploads/certification-mark.jpg',
+        git: 'https://github.com/ronakpiraka',
+        technologies: ['']
+    },
+    {
+        title: 'Google Cloud Engineer - Associate Cloud Engineer ',
+        description: 'Credential no.: TJEspB (Validity: 2022 - 2024)',
+        image: 'https://yourtrademarkattorney.com/wp-content/uploads/certification-mark.jpg',
+        git: "https://github.com/ronakpiraka",
+        technologies: ['']
+    }
+    // {
+    //     title: 'BSync - Brillio [Aug 2022 - Sep 2022]',
+    //     description: 'Created a dynamic Single Sign-On (SSO) landing page with admin portals and AWS S3 bucket for image storage, improving admin efficiency by 40%. Implemented RSVP functionality, ensuring secure handling of user information and event details, resulting in a 75% increase in event participation.',
+    //     image: 'https://yourtrademarkattorney.com/wp-content/uploads/certification-mark.jpg',
+    //     git: "https://github.com/ronakpiraka",
+    //     technologies: ['']
+    // }
+];
+
 export const club = [
     {
         title: 'Organizer Corporate Strategy & Implementation - Aaruush 21, SRM IST',
@@ -116,29 +140,29 @@ export const club = [
     }
 ];
 
-export const testimony = [
-    {
-        title: 'YYYYYYYYYYYYYYYYY Telehealth GCP [Sep 2022 - Jun 2023]',
-        description: 'Led the development of secure data generation and integration solutions on Google Cloud Platform, enhancing data security and accessibility by 85%. Developed React.js interfaces, improving user interaction and decreasing error rates by 20%.',
-        image: 'https://www.ntaskmanager.com/wp-content/uploads/2020/10/project-design-in-project-management.png',
-        git: 'https://github.com/ronakpiraka',
-        technologies: ['ReactJS', 'AWS', 'NodeJS']
-    },
-    {
-        title: 'YYYYYYYYYYYYYYYYY SBI - YONO (Clone) [Aug 2022 - Nov 2022]',
-        description: 'Developed a secure digital banking platform clone using Java and Angular, implementing robust encryption and authentication measures, leading to a 99.9% uptime and enhanced user trust.',
-        image: 'https://www.ntaskmanager.com/wp-content/uploads/2020/10/project-design-in-project-management.png',
-        git: "https://github.com/ronakpiraka",
-        technologies: ['Angular JS', 'Java', 'Github']
-    },
-    {
-        title: 'YYYYYYYYYYYYYYYYY BSync - Brillio [Aug 2022 - Sep 2022]',
-        description: 'Created a dynamic Single Sign-On (SSO) landing page with admin portals and AWS S3 bucket for image storage, improving admin efficiency by 40%. Implemented RSVP functionality, ensuring secure handling of user information and event details, resulting in a 75% increase in event participation.',
-        image: 'https://www.ntaskmanager.com/wp-content/uploads/2020/10/project-design-in-project-management.png',
-        git: "https://github.com/ronakpiraka",
-        technologies: ['Angular JS', 'Java', 'Github']
-    }
-];
+// export const testimony = [
+//     {
+//         title: 'YYYYYYYYYYYYYYYYY Telehealth GCP [Sep 2022 - Jun 2023]',
+//         description: 'Led the development of secure data generation and integration solutions on Google Cloud Platform, enhancing data security and accessibility by 85%. Developed React.js interfaces, improving user interaction and decreasing error rates by 20%.',
+//         image: 'https://www.ntaskmanager.com/wp-content/uploads/2020/10/project-design-in-project-management.png',
+//         git: 'https://github.com/ronakpiraka',
+//         technologies: ['ReactJS', 'AWS', 'NodeJS']
+//     },
+//     {
+//         title: 'YYYYYYYYYYYYYYYYY SBI - YONO (Clone) [Aug 2022 - Nov 2022]',
+//         description: 'Developed a secure digital banking platform clone using Java and Angular, implementing robust encryption and authentication measures, leading to a 99.9% uptime and enhanced user trust.',
+//         image: 'https://www.ntaskmanager.com/wp-content/uploads/2020/10/project-design-in-project-management.png',
+//         git: "https://github.com/ronakpiraka",
+//         technologies: ['Angular JS', 'Java', 'Github']
+//     },
+//     {
+//         title: 'YYYYYYYYYYYYYYYYY BSync - Brillio [Aug 2022 - Sep 2022]',
+//         description: 'Created a dynamic Single Sign-On (SSO) landing page with admin portals and AWS S3 bucket for image storage, improving admin efficiency by 40%. Implemented RSVP functionality, ensuring secure handling of user information and event details, resulting in a 75% increase in event participation.',
+//         image: 'https://www.ntaskmanager.com/wp-content/uploads/2020/10/project-design-in-project-management.png',
+//         git: "https://github.com/ronakpiraka",
+//         technologies: ['Angular JS', 'Java', 'Github']
+//     }
+// ];
 
 export const educations = [
     {

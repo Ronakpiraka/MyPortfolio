@@ -43,8 +43,8 @@ const About = () => {
               padding={`p-3`}
             />
           </div>
-          {/* <br/><br/>
-          <div className='sm:px-16 px-2'>
+          
+          {/*<div className='sm:px-16 px-2'>
             <h4 className='text-2xl sm:text-3xl font-extrabold mt-2'>Can help you with:</h4>
           </div> */}
           <div className='mt-20 flex justify-center flex-wrap gap-7'>

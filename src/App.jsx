@@ -7,8 +7,10 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Projects from './components/Projects';
 import Education from './components/Education';
+// import Certificates from './components/Certificates';
 import CollegeClubs from './components/CollegeClubs';
 import Testimonials from './components/Testimonials';
+import Certificates from './components/Certificates';
 
 const App = () => {
   return (
@@ -23,6 +25,8 @@ const App = () => {
         <Route path='/education' element={<Education />} />
         <Route path='/college-clubs' element={<CollegeClubs />} />
         <Route path='/testimonials' element={<Testimonials />} />
+        <Route path='/certificates' element={<Certificates />} />
+        
       </Routes>
       <Footer />
     </Router>

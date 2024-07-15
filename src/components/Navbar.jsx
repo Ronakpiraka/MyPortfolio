@@ -31,11 +31,12 @@ const Navbar = () => {
           <Link to='/about'>About Me</Link>
           <Link to='/projects'>Projects</Link>
           <Link to='/experience'>Experience</Link>
+          {/* <Link to='/certificates'>Certificates</Link> */}
           <Link to='/education'>Education</Link>
           <Link to='/college-clubs'>College Clubs</Link>
         {/* </div>
         <div className="hidden sm:flex space-x-4 items-center text-sm"> */}
-          {/* <Link to='/testimonials'>Testimonials</Link> */}
+          <Link to='/testimonials'>Certificates</Link>
           <Link to='/contact'>Contact</Link>
         </div>
 
@@ -54,8 +55,9 @@ const Navbar = () => {
             <li><Link to='/projects' onClick={closeMobileMenu}>Projects</Link></li>
             <li><Link to='/experience' onClick={closeMobileMenu}>Experience</Link></li>
             <li><Link to='/education' onClick={closeMobileMenu}>Education</Link></li>
+            {/* <li><Link to='/certificates' onClick={closeMobileMenu}>Certificates</Link></li> */}
             <li><Link to='/collegeclubs' onClick={closeMobileMenu}>College Clubs</Link></li>
-            {/* <li><Link to='/testimonials' onClick={closeMobileMenu}>Testimonials</Link></li> */}
+            <li><Link to='/testimonials' onClick={closeMobileMenu}>Testimonials</Link></li>
             <li><Link to='/contact' onClick={closeMobileMenu}>Contact</Link></li>
           </ul>
         </div>
