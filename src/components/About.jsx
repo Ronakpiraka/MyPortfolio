@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import '../App.css';
 import { services } from '../constants';
 import ButtonLink from './ButtonLink';
@@ -6,8 +7,7 @@ import Footer from './Footer';
 
 const ServiceCard = ({ service }) => (
   <div className='sm:w-[250px] w-full'>
-    <div
-      className='w-full green-pink-gradient p-[1px] rounded-[20px]'>
+    <div className='w-full green-pink-gradient p-[1px] rounded-[20px]'>
       <div
         className='rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
         style={{ background: '#151030' }}>
@@ -25,6 +25,12 @@ const ServiceCard = ({ service }) => (
 );
 
 const About = () => {
+  const navigate = useNavigate();
+
+  const handleHireMeClick = () => {
+    navigate('/contact');
+  };
+
   return (
     <div>
       <div className='bg-black h-full w-full text-white sm:flex sm:justify-around about py-12 mt-8 overflow-x-hidden' id='about'>
@@ -37,19 +43,24 @@ const About = () => {
               <br/>
               ✍️ Beyond coding, I love interacting with people and sharing my experiences.</p>
 
-            <ButtonLink
-              url='https://drive.google.com/file/d/1eonTrnoOUA1Vd5ruCcbhEtKbgjmnOscU/view?usp=drive_link'
-              text='View Resume →'
-              padding={`p-3`}
-            />
+            <div className='flex gap-4'>
+              <ButtonLink
+                url='https://drive.google.com/file/d/1eonTrnoOUA1Vd5ruCcbhEtKbgjmnOscU/view?usp=drive_link'
+                text='View Resume →'
+                padding={`p-3`}
+              />
+              <button
+                onClick={handleHireMeClick}
+                className='p-3 bg-green-300 hover:bg-green-500 text-black font-bold rounded'
+              >
+                Hire Me
+              </button>
+            </div>
           </div>
           
-          {/*<div className='sm:px-16 px-2'>
-            <h4 className='text-2xl sm:text-3xl font-extrabold mt-2'>Can help you with:</h4>
-          </div> */}
           <div className='mt-20 flex justify-center flex-wrap gap-7'>
             {services.map((service) => (
-              <ServiceCard service={service} />
+              <ServiceCard key={service.title} service={service} />
             ))}
           </div>
         </div>

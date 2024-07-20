@@ -25,7 +25,7 @@ export const experiences = [
         'duration': 'July 24 - Present',
         'logo': 'https://fincity.com/api/files/static/file/FIN/fincity_new_landing_page/Group+1000011433+%281%29.svg',
         'points': [
-            'WORKING ON CONTENT'
+            'Working on UI for no-code low-code platform which will help developers create a fully dynamic and customisable website in no time.'
         ],
         'url': 'https://fincity.com/',
     },    
@@ -78,7 +78,7 @@ export const project = [
     }
 ];
 
-export const testimony = [
+export const certificate = [
     {
         title: 'AWS Certified Cloud Practitioner ',
         description: 'Credential no.: KNCTR0CCZJRQQRSH (Validity: 2022 - 2025)',
@@ -140,29 +140,29 @@ export const club = [
     }
 ];
 
-// export const testimony = [
-//     {
-//         title: 'YYYYYYYYYYYYYYYYY Telehealth GCP [Sep 2022 - Jun 2023]',
-//         description: 'Led the development of secure data generation and integration solutions on Google Cloud Platform, enhancing data security and accessibility by 85%. Developed React.js interfaces, improving user interaction and decreasing error rates by 20%.',
-//         image: 'https://www.ntaskmanager.com/wp-content/uploads/2020/10/project-design-in-project-management.png',
-//         git: 'https://github.com/ronakpiraka',
-//         technologies: ['ReactJS', 'AWS', 'NodeJS']
-//     },
-//     {
-//         title: 'YYYYYYYYYYYYYYYYY SBI - YONO (Clone) [Aug 2022 - Nov 2022]',
-//         description: 'Developed a secure digital banking platform clone using Java and Angular, implementing robust encryption and authentication measures, leading to a 99.9% uptime and enhanced user trust.',
-//         image: 'https://www.ntaskmanager.com/wp-content/uploads/2020/10/project-design-in-project-management.png',
-//         git: "https://github.com/ronakpiraka",
-//         technologies: ['Angular JS', 'Java', 'Github']
-//     },
-//     {
-//         title: 'YYYYYYYYYYYYYYYYY BSync - Brillio [Aug 2022 - Sep 2022]',
-//         description: 'Created a dynamic Single Sign-On (SSO) landing page with admin portals and AWS S3 bucket for image storage, improving admin efficiency by 40%. Implemented RSVP functionality, ensuring secure handling of user information and event details, resulting in a 75% increase in event participation.',
-//         image: 'https://www.ntaskmanager.com/wp-content/uploads/2020/10/project-design-in-project-management.png',
-//         git: "https://github.com/ronakpiraka",
-//         technologies: ['Angular JS', 'Java', 'Github']
-//     }
-// ];
+export const testimony = [
+    {
+        title: 'YYYYYYYYYYYYYYYYY Telehealth GCP [Sep 2022 - Jun 2023]',
+        description: 'Led the development of secure data generation and integration solutions on Google Cloud Platform, enhancing data security and accessibility by 85%. Developed React.js interfaces, improving user interaction and decreasing error rates by 20%.',
+        image: 'https://www.ntaskmanager.com/wp-content/uploads/2020/10/project-design-in-project-management.png',
+        git: 'https://github.com/ronakpiraka',
+        technologies: ['ReactJS', 'AWS', 'NodeJS']
+    },
+    {
+        title: 'YYYYYYYYYYYYYYYYY SBI - YONO (Clone) [Aug 2022 - Nov 2022]',
+        description: 'Developed a secure digital banking platform clone using Java and Angular, implementing robust encryption and authentication measures, leading to a 99.9% uptime and enhanced user trust.',
+        image: 'https://www.ntaskmanager.com/wp-content/uploads/2020/10/project-design-in-project-management.png',
+        git: "https://github.com/ronakpiraka",
+        technologies: ['Angular JS', 'Java', 'Github']
+    },
+    {
+        title: 'YYYYYYYYYYYYYYYYY BSync - Brillio [Aug 2022 - Sep 2022]',
+        description: 'Created a dynamic Single Sign-On (SSO) landing page with admin portals and AWS S3 bucket for image storage, improving admin efficiency by 40%. Implemented RSVP functionality, ensuring secure handling of user information and event details, resulting in a 75% increase in event participation.',
+        image: 'https://www.ntaskmanager.com/wp-content/uploads/2020/10/project-design-in-project-management.png',
+        git: "https://github.com/ronakpiraka",
+        technologies: ['Angular JS', 'Java', 'Github']
+    }
+];
 
 export const educations = [
     {
