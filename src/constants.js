@@ -25,7 +25,8 @@ export const experiences = [
         'duration': 'July 24 - Present',
         'logo': 'https://fincity.com/api/files/static/file/FIN/fincity_new_landing_page/Group+1000011433+%281%29.svg',
         'points': [
-            'Working on UI for no-code low-code platform which will help developers create a fully dynamic and customisable website in no time.'
+            'Working on Modlix, a no-code low-code platform that enables users to develop fully customizable web-apps efficiently.',
+            'Identify user requirements and create components to streamline the development process.',' Utilize TypeScript for frontend development and Java for backend operations.',' Implement multiple API calls to enhance data fetching speed and efficiency. ','Contribute to reducing website creation time by 80% and increasing efficiency by at least 60%.',' Developing ready-to-use templates for various website sections to further decrease development time by 60% and increase efficiency to approximately 85%.'
         ],
         'url': 'https://fincity.com/',
     },    
@@ -55,6 +56,13 @@ export const experiences = [
 ];
 
 export const project = [
+    {
+        title: 'Modlix [Jul 2024 - Present]',
+        description: 'Developing a no-code low-code platform that allows users to create fully customizable websites using drag-and-drop features, reducing development time by 80%. Utilizing TypeScript for frontend and Java for backend development, implementing multiple API calls to enhance data fetching speed and efficiency. Creating components based on user requirements and planning ready-to-use templates for various website sections to further streamline the development process.',
+        image: 'https://www.ntaskmanager.com/wp-content/uploads/2020/10/project-design-in-project-management.png',
+        git: 'https://github.com/ronakpiraka',
+        technologies: ['ReactJS', 'JAVA', 'TypeScript']
+    },
     {
         title: 'Telehealth GCP [Sep 2022 - Jun 2023]',
         description: 'Led the development of secure data generation and integration solutions on Google Cloud Platform, enhancing data security and accessibility by 85%. Developed React.js interfaces, improving user interaction and decreasing error rates by 20%.',

@@ -100,7 +100,7 @@ const Contact = () => {
                                 value={form.name}
                                 onChange={handleChange}
                                 placeholder="Enter your name"
-                                className='py-4 px-6 rounded-lg outline-none border-none font-medium bg-gray-900'
+                                className='py-4 px-6 rounded-lg  font-medium bg-gray-900'
                                 required
                             />
                         </label>
