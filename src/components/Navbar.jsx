@@ -56,8 +56,8 @@ const Navbar = () => {
             <li><Link to='/experience' onClick={closeMobileMenu}>Experience</Link></li>
             <li><Link to='/education' onClick={closeMobileMenu}>Education</Link></li>
             <li><Link to='/certificates' onClick={closeMobileMenu}>Certificates</Link></li>
-            <li><Link to='/collegeclubs' onClick={closeMobileMenu}>College Clubs</Link></li>
-            <li><Link to='/testimonials' onClick={closeMobileMenu}>Testimonials</Link></li>
+            <li><Link to='/college-clubs' onClick={closeMobileMenu}>College Clubs</Link></li>
+            {/* <li><Link to='/testimonials' onClick={closeMobileMenu}>Testimonials</Link></li> */}
             <li><Link to='/contact' onClick={closeMobileMenu}>Contact</Link></li>
           </ul>
         </div>

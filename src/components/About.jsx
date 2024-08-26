@@ -42,10 +42,12 @@ const About = () => {
               🚀 As a seasoned <a className='text-green-300 hover:text-green-500 duration-300' href='https://linkedin.com/in/ronak-piraka' target='_blank'>software developer</a>, I specialize in both MEAN and MERN stacks. 
               <br/>
               ✍️ Beyond coding, I love interacting with people and sharing my experiences.</p>
+              <p>Results-driven Software Engineer with more than 1.5 years of experience in full-stack development, specializing in React.js, TypeScript, Java, and cloud technologies (AWS, GCP). Proven expertise in developing user-centric applications, optimizing backend processes, and implementing no-code/low-code solutions. Adept at cross-functional collaboration and driving efficiency improvements.</p>
 
             <div className='flex gap-4'>
               <ButtonLink
-                url='https://drive.google.com/file/d/1eonTrnoOUA1Vd5ruCcbhEtKbgjmnOscU/view?usp=drive_link'
+                // url='https://drive.google.com/file/d/1eonTrnoOUA1Vd5ruCcbhEtKbgjmnOscU/view?usp=drive_link'
+                url='https://drive.google.com/file/d/17iB1hd1nELKTNHHeocpN9s1a_oGMbme5/view?usp=sharing'
                 text='View Resume →'
                 padding={`p-3`}
               />
